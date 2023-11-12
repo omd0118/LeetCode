@@ -14,6 +14,9 @@ public:
                     a.pop();
             }
         }
+        if(a.empty()){
         return true;
+        }
+        else return false;
     }
 };
